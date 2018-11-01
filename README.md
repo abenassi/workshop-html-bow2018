@@ -9,7 +9,7 @@
 6. Follow the next steps with the tool.
 7. See tutorial: http://academy.datawrapper.de
 8. See video tutorial: https://www.youtube.com/watch?v=Ni8PmmC2IWs
-9. See result: https://datawrapper.dwcdn.net/eqeUV/1/
+9. See result: https://datawrapper.dwcdn.net/fkNSS/1/
 
 ### Turism indicators example (Highcharts)
 
