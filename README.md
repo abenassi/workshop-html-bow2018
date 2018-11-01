@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## BOW 2018 hackaton workshop examples
 
-You can use the [editor on GitHub](https://github.com/abenassi/workshop-html-bow2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Turism map example (Datawrapper)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Turism indicators example (Highcharts)
 
-```markdown
-Syntax highlighted code block
+1. Download data from http://opencaribbean.org/dataset/belize-tourism-data (http://www.opencaribbean.org/dataset/5a47d16a-930e-4200-aa09-530567d50a9e/resource/2a0cff37-c9d8-4a03-ab4a-2082d0993826/download/accommodation-sector-indicators.xlsx)
+1. Convert XLSX to CSV (sheet of average daily prices)
+2. Upload CSV to Github
+3. Create Highcharts chart in an HTML file, using uploaded CSV file (https://github.com/abenassi/workshop-html-bow2018/blob/master/highcharts.html)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abenassi/workshop-html-bow2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+See result: https://abenassi.github.io/workshop-html-bow2018/highcharts.html
