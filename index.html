@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Turism indicators dashboard - BOW 2018</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+</head>
+<style>
+#container {
+    min-width: 310px;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto
+}
+</style>
+
+<body>
+    <div id="container"></div>
+    <script>
+    Highcharts.chart('container', {
+
+        title: {
+            text: "Average Daily Room Rate by Area"
+        },
+
+        subtitle: {
+            text: "Source: Belize Ministry of Tourism"
+        },
+
+        yAxis: {
+            title: {
+                text: "BZE $"
+            }
+        },
+
+        data: {
+            csvURL: "https://raw.githubusercontent.com/abenassi/workshop-html-bow2018/master/accommodation-sector-indicators.csv"
+        }
+
+    });
+    </script>
+</body>
+
+</html>
